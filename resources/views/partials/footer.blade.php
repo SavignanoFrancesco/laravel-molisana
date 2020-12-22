@@ -10,5 +10,74 @@
             <p>Fax: +39 00000000</p>
         </div>
     </div>
+    <div class="right">
+        <div class="footer-card">
+            <ul>
+                <li>
+                    <h3>Pastificio</h3>
+                </li>
+                <li>
+                    <a href="#">Il Pastificio</a>
+                </li>
+                <li>
+                    <a href="#">Il Pastificio</a>
+                </li>
+                <li>
+                    <a href="#">Il Pastificio</a>
+                </li>
+                <li>
+                    <a href="#">Il Pastificio</a>
+                </li>
+                <li>
+                    <a href="#">Il Pastificio</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-card">
+            <ul>
+                <li>
+                    <h3>Pastificio</h3>
+                </li>
+                <li>
+                    <a href="#">Il Pastificio</a>
+                </li>
+                <li>
+                    <a href="#">Il Pastificio</a>
+                </li>
+                <li>
+                    <a href="#">Il Pastificio</a>
+                </li>
+                <li>
+                    <a href="#">Il Pastificio</a>
+                </li>
+                <li>
+                    <a href="#">Il Pastificio</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-card">
+            <ul>
+                <li>
+                    <h3>Pastificio</h3>
+                </li>
+                <li>
+                    <a href="#">Il Pastificio</a>
+                </li>
+                <li>
+                    <a href="#">Il Pastificio</a>
+                </li>
+                <li>
+                    <a href="#">Il Pastificio</a>
+                </li>
+                <li>
+                    <a href="#">Il Pastificio</a>
+                </li>
+                <li>
+                    <a href="#">Il Pastificio</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
 </div>
 <img src="{{asset('images/footer-montagne.jpg')}}" alt="">

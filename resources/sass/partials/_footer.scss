@@ -3,14 +3,23 @@ footer{
     .container{
         display: flex;
         .left{
+            width: calc(100% / 3);
             img{
-                width: 100%;
+                width: 280px;
             }
             p{
                 color: rgba($text_color,0.4);
                 font-weight:bold;
                 font-size: $font-size;
                 padding-top: 3px;
+            }
+        }
+        .right{
+            display: flex;
+            flex-wrap: wrap;
+            width: calc((100% / 3) * 2);
+            .footer-card{
+                width: calc(100% / 2);
             }
         }
     }

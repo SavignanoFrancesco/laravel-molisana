@@ -88,14 +88,25 @@ header #menu ul a:hover {
 footer .container {
   display: flex;
 }
+footer .container .left {
+  width: calc(100% / 3);
+}
 footer .container .left img {
-  width: 100%;
+  width: 280px;
 }
 footer .container .left p {
   color: rgba(0, 0, 0, 0.4);
   font-weight: bold;
   font-size: 14px;
   padding-top: 3px;
+}
+footer .container .right {
+  display: flex;
+  flex-wrap: wrap;
+  width: calc((100% / 3) * 2);
+}
+footer .container .right .footer-card {
+  width: calc(100% / 2);
 }
 
 main {
