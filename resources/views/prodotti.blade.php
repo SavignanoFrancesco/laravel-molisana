@@ -2,28 +2,29 @@
 
 @section('content')
 
-    @foreach($tipi as $tipo)
+    <div id="products">
 
-        <div id="products">
+        <div class="container">
+            @foreach($tipi as $tipo)
 
-            <h1>{{$tipo}}</h1>
+                <h1>{{$tipo}}</h1>
 
-            <div class="cards-container">
-                @foreach($formati as $formato)
-                    @if($formato['tipo'] == $tipo)
-                        <div class="card">
-                            <img src="{{$formato['src']}}" alt="{{$formato['titolo']}}">
-                            <div class="layer">
-                                <a href="#">{{$formato['titolo']}}</a>
+                <div class="cards-container">
+                    @foreach($formati as $formato)
+                        @if($formato['tipo'] == $tipo)
+                            <div class="card">
+                                <img src="{{$formato['src']}}" alt="{{$formato['titolo']}}">
+                                <div class="layer">
+                                    <a href="#">{{$formato['titolo']}}</a>
+                                </div>
                             </div>
-                        </div>
-                    @endif
-                @endforeach
-            </div>
+                        @endif
+                    @endforeach
+                </div>
 
+            @endforeach
         </div>
-
-    @endforeach
+    </div>
 
 @endsection
 

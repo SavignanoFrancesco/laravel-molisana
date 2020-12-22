@@ -1,11 +1,9 @@
-main{
-    background-image: url('/images/fondo-pag-speciali.jpg');
+#products{
     padding: $spacing * 2 0;
-    #products{
-        h1{
-            text-transform: uppercase;
-            padding-left: 3px;
-            font-size: $font_size * 1.7;
-        }
+    background-image: url('/images/fondo-pag-speciali.jpg');
+    h1{
+        text-transform: uppercase;
+        padding-left: 3px;
+        font-size: $font_size * 1.7;
     }
 }

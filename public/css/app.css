@@ -8,10 +8,6 @@ body {
   font-family: sans-serif;
 }
 
-main {
-  min-height: 60vh;
-}
-
 ul {
   list-style-type: none;
 }
@@ -113,11 +109,11 @@ footer .container .right .footer-card {
   padding: 20px;
 }
 
-main {
-  background-image: url("/images/fondo-pag-speciali.jpg");
+#products {
   padding: 40px 0;
+  background-image: url("/images/fondo-pag-speciali.jpg");
 }
-main #products h1 {
+#products h1 {
   text-transform: uppercase;
   padding-left: 3px;
   font-size: 23.8px;
