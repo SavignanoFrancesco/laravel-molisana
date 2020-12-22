@@ -4,19 +4,23 @@
 
     @foreach($tipi as $tipo)
 
-        <h1>{{$tipo}}</h1>
+        <div id="products">
 
-        <div class="cards-container">
-            @foreach($formati as $formato)
-                @if($formato['tipo'] == $tipo)
-                    <div class="card">
-                        <img src="{{$formato['src']}}" alt="{{$formato['titolo']}}">
-                        <div class="layer">
-                            <a href="#">{{$formato['titolo']}}</a>
+            <h1>{{$tipo}}</h1>
+
+            <div class="cards-container">
+                @foreach($formati as $formato)
+                    @if($formato['tipo'] == $tipo)
+                        <div class="card">
+                            <img src="{{$formato['src']}}" alt="{{$formato['titolo']}}">
+                            <div class="layer">
+                                <a href="#">{{$formato['titolo']}}</a>
+                            </div>
                         </div>
-                    </div>
-                @endif
-            @endforeach
+                    @endif
+                @endforeach
+            </div>
+
         </div>
 
     @endforeach

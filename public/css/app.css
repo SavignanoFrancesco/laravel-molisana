@@ -30,6 +30,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   border-bottom: 3px solid transparent;
+  padding: 10px 0;
 }
 .cards-container .card {
   position: relative;
@@ -115,4 +116,9 @@ footer .container .right .footer-card {
 main {
   background-image: url("/images/fondo-pag-speciali.jpg");
   padding: 40px 0;
+}
+main #products h1 {
+  text-transform: uppercase;
+  padding-left: 3px;
+  font-size: 23.8px;
 }
