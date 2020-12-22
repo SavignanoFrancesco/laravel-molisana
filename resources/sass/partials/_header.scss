@@ -1,0 +1,23 @@
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    #logo{
+        margin: $spacing 0;
+    }
+
+    #menu{
+        margin: $spacing 0;
+        ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            a{
+                display: inline-block;
+                padding: $spacing;
+                border: 1px solid black;
+            }
+        }
+    }
+}
