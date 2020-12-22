@@ -153,7 +153,8 @@ Route::get('/prodotti', function () {
     // var_dump($tipi_di_pasta);
 
     $data = [
-        'formati' => $pasta
+        'formati' => $pasta,
+        'tipi' => $tipi_di_pasta
     ];
 
     return view('prodotti', $data);
