@@ -17,6 +17,13 @@ header{
                 display: inline-block;
                 padding: $spacing;
                 border: 1px solid black;
+                color: $text_color;
+                font-size: $font-size * 1.2;
+
+                &:hover{
+                    background: $brand_primary_color;
+                    cursor: pointer;
+                }
             }
         }
     }
