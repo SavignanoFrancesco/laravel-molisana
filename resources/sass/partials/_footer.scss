@@ -1,6 +1,17 @@
 footer{
 
-    img{
-        width: 100%;
+    .container{
+        display: flex;
+        .left{
+            img{
+                width: 100%;
+            }
+            p{
+                color: rgba($text_color,0.4);
+                font-weight:bold;
+                font-size: $font-size;
+                padding-top: 3px;
+            }
+        }
     }
 }

@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: sans-serif;
+}
+
 main {
   min-height: 60vh;
 }
@@ -81,8 +85,17 @@ header #menu ul a:hover {
   cursor: pointer;
 }
 
-footer img {
+footer .container {
+  display: flex;
+}
+footer .container .left img {
   width: 100%;
+}
+footer .container .left p {
+  color: rgba(0, 0, 0, 0.4);
+  font-weight: bold;
+  font-size: 14px;
+  padding-top: 3px;
 }
 
 main {
