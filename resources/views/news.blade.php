@@ -1,0 +1,7 @@
+@extends('layouts.app')
+
+@section('content')
+    <h1>News</h1>
+@endsection
+
+@section('page-title', 'La Molisana - News')
