@@ -86,7 +86,9 @@ header #menu ul a:hover {
 }
 
 footer .container {
+  padding: 20px 0;
   display: flex;
+  align-items: center;
 }
 footer .container .left {
   width: calc(100% / 3);
@@ -107,6 +109,7 @@ footer .container .right {
 }
 footer .container .right .footer-card {
   width: calc(100% / 2);
+  padding: 20px;
 }
 
 main {

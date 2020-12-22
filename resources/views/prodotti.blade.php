@@ -4,11 +4,11 @@
 
     <h1>Prodotti</h1>
     <div class="cards-container">
-        @foreach($tipi_di_pasta as $tipo)
+        @foreach($formati as $formato)
             <div class="card">
-                <img src="{{$tipo['src']}}" alt="{{$tipo['titolo']}}">
+                <img src="{{$formato['src']}}" alt="{{$formato['titolo']}}">
                 <div class="layer">
-                    <a href="#">{{$tipo['titolo']}}</a>
+                    <a href="#">{{$formato['titolo']}}</a>
                 </div>
             </div>
         @endforeach
